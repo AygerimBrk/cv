@@ -1,0 +1,151 @@
+body {
+  padding: 0 10% 4% 10%;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+/* =============STYLES ALL HEADERS============== */
+/*==========================================*/
+h1 {
+  background: rgb(11, 10, 11);
+  color: white;
+  margin-bottom: 0px;
+  padding: 6px 18px;
+  font-size: 1em;
+}
+/* navbar form */
+.form-inline {
+  display: flex;
+  justify-content: end;
+  background-color: rgb(221, 212, 222);
+}
+.btn {
+  background-color: rgb(221, 212, 222);
+}
+.form-control {
+  background-color: rgb(221, 212, 222);
+}
+h3 {
+  font-size: 1.1em;
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Nunito Sans", sans-serif;
+}
+h4 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 1em;
+}
+h5 {
+  font-style: italic;
+  font-weight: 400;
+  font-size: 0.9em;
+  margin-top: 5px;
+}
+
+/*================NAME==========================*/
+#name {
+  font-size: 1.5em;
+  font-weight: 900;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  line-height: 100%;
+  font-family: "Nunito Sans", sans-serif;
+}
+/*===============JOB  TITLE===========================*/
+#jobTitle {
+  font-size: 1em;
+  font-weight: 400;
+  font-family: Rubik;
+}
+/* END OF STYLING FOR HEADERS */
+
+/*==================CONTAINER========================*/
+.flex-container {
+  display: flex;
+}
+
+#left {
+  width: 30%;
+  box-sizing: border-box;
+  background: rgb(221, 212, 222);
+  text-align: center;
+}
+
+div div div {
+  position: relative;
+  border: 2px hsl(0, 0%, 0%) solid;
+  box-sizing: border-box;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 55px;
+  margin-bottom: 30px;
+  min-height: 250px;
+  padding-bottom: 4%;
+  z-index: 0;
+}
+
+/*header WITH Contact details */
+div div div h3 {
+  position: absolute;
+  top: -8%;
+  right: 20%;
+  left: 20%;
+  z-index: 1;
+  text-align: center;
+}
+
+div div div h4 {
+  margin-top: 10%;
+}
+div div div p {
+  margin-top: 2%;
+  font-size: 1em;
+}
+
+#right {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 50px 5%;
+  margin: 0;
+  background-color: rgb(221, 212, 222);
+}
+
+/* image START */
+img {
+  width: 33%;
+  display: block;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px black solid;
+}
+
+/* images END*/
+
+/*styling for <hr>   */
+
+hr {
+  display: block;
+  background-color: black;
+  text-align: center;
+}
+
+#mainHR {
+  width: 25%;
+  border: 2px solid black;
+  margin-top: 20px;
+}
+#justified {
+  text-align: justify;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-bottom: 50px;
+}
+.funky {
+  transition: color 1s, font-size 2s;
+}
+.funky:hover {
+  color: green;
+  font-size: 0.9em;
+}
